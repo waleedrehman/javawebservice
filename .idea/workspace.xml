@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be35d387-520d-47f3-8592-25094566abe8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/waleed/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/waleed/Greeting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/waleed/GreetingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hello/GreetingControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uk/co/waleed/GreetingControllerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/waleed/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/waleed/PermutationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +37,11 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="uk.co.waleed" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -50,9 +54,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GreetingControllerTests">
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uk.co.waleed.Application" />
+      <module name="gs-rest-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uk.co.waleed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hello.Application" />
+      <option name="MAIN_CLASS_NAME" value="uk.co.waleed.Application" />
       <module name="gs-rest-service" />
       <extension name="coverage">
         <pattern>
@@ -79,10 +96,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Application" />
+      <item itemvalue="Application.Application (1)" />
+      <item itemvalue="JUnit.GreetingControllerTests" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GreetingControllerTests" />
         <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Application (1)" />
+        <item itemvalue="JUnit.GreetingControllerTests" />
       </list>
     </recent_temporary>
   </component>
