@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uk.co.waleed.PermutationControllerTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-12-12T22:57:05" hostname="waleed" time="0.023">
+  <properties/>
+  <testcase name="paramPermutationShouldReturnTailoredMessage" classname="uk.co.waleed.PermutationControllerTests" time="0.012"/>
+  <testcase name="noParamPermutationShouldReturnDefaultMessage" classname="uk.co.waleed.PermutationControllerTests" time="0.01"/>
+  <system-out><![CDATA[2019-12-12 22:57:05.670  INFO 10864 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [uk.co.waleed.PermutationControllerTests], using SpringBootContextLoader
+2019-12-12 22:57:05.671  INFO 10864 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [uk.co.waleed.PermutationControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-12-12 22:57:05.671  INFO 10864 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [uk.co.waleed.PermutationControllerTests]: PermutationControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-12-12 22:57:05.675  INFO 10864 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration uk.co.waleed.Application for test class uk.co.waleed.PermutationControllerTests
+2019-12-12 22:57:05.676  INFO 10864 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-12-12 22:57:05.677  INFO 10864 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6de2cde5, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6c6c70d0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4fe78e0b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@51a04ea3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2ad62c97, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@25b323ed, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@56576686, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5d1efb9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1e78c900, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@22682d69]
+You entered 369
+The digits in the input are [3, 6, 9]
+963,936,693,639,396,369
+Thanks and goodbye
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /permutation
+       Parameters = {permuteInt=[369]}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = uk.co.waleed.PermutationController
+           Method = public uk.co.waleed.Permutation uk.co.waleed.PermutationController.greeting(java.lang.String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json;charset=UTF-8"]
+     Content type = application/json;charset=UTF-8
+             Body = {"id":1,"content":"The permuted value is, 963,936,693,639,396,369!"}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+You entered 326
+The digits in the input are [3, 2, 6]
+632,623,362,326,263,236
+Thanks and goodbye
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /permutation
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = uk.co.waleed.PermutationController
+           Method = public uk.co.waleed.Permutation uk.co.waleed.PermutationController.greeting(java.lang.String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json;charset=UTF-8"]
+     Content type = application/json;charset=UTF-8
+             Body = {"id":2,"content":"The permuted value is, 632,623,362,326,263,236!"}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
