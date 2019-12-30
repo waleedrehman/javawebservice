@@ -3,7 +3,7 @@ package uk.co.waleed.Permutation.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import uk.co.waleed.Permutation.Permutation;
+import uk.co.waleed.Permutation.Model.PermutationDTO;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -17,7 +17,7 @@ public class PermutationController {
     private final AtomicLong counter = new AtomicLong();
 
     @RequestMapping("/permutation")
-    public Permutation greeting(@RequestParam(value="permuteInt", defaultValue="326") String permuteInt) {
+    public PermutationDTO greeting(@RequestParam(value="permuteInt", defaultValue="326") String permuteInt) {
         ArrayList<Integer> listOfNumbers = new ArrayList<Integer>();
 
         for(char ch : permuteInt.toCharArray()){
@@ -49,7 +49,7 @@ public class PermutationController {
         //setResult(res);
         System.out.println("Thanks and goodbye");
 
-        return new Permutation(counter.incrementAndGet(),
+        return new PermutationDTO(counter.incrementAndGet(),
                             String.format(template, res));
     }
 

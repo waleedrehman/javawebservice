@@ -1,11 +1,11 @@
-package uk.co.waleed.Greeting;
+package uk.co.waleed.Greeting.Model;
 
-public class Greeting {
+public class GreetingDTO {
 
     private final long id;
     private final String content;
 
-    public Greeting(long id, String content) {
+    public GreetingDTO(long id, String content) {
         this.id = id;
         this.content = content;
     }
