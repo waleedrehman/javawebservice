@@ -1,5 +1,6 @@
 package uk.co.waleed.Permutation.Controller;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,6 +17,7 @@ public class PermutationController {
     private static final String template = "The permuted value is, %s!";
     private final AtomicLong counter = new AtomicLong();
 
+    @CrossOrigin(origins = "*")
     @RequestMapping("/permutation")
     public PermutationDTO greeting(@RequestParam(value="permuteInt", defaultValue="326") String permuteInt) {
         ArrayList<Integer> listOfNumbers = new ArrayList<Integer>();
