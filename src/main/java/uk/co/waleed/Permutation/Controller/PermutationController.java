@@ -44,7 +44,7 @@ public class PermutationController {
                 res += result.get(i);
             }
             else {
-                res += result.get(i) + ",";
+                res += result.get(i) + ", ";
             }
         }
         System.out.println(res);
