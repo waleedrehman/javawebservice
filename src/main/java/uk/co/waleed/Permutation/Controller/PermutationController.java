@@ -29,7 +29,9 @@ public class PermutationController {
         }
 
         if (listOfNumbers == null || listOfNumbers.isEmpty()){
-            throw new NumberFormatException("The input entered doesn't have any digits " + permuteInt);
+            //throw new NumberFormatException("The input entered doesn't have any digits " + permuteInt);
+            return new PermutationDTO(counter.incrementAndGet(),
+                    String.format(template, "The input entered doesn't have any digits '" + permuteInt + "'"));
         }
 
         System.out.println("You entered "+ permuteInt);
