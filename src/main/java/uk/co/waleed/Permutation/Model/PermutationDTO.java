@@ -3,11 +3,11 @@ package uk.co.waleed.Permutation.Model;
 public class PermutationDTO {
 
     private final long id;
-    private final String permuteInt;
+    private final String result;
 
-    public PermutationDTO(long id, String permuteInt) {
+    public PermutationDTO(long id, String result) {
         this.id = id;
-        this.permuteInt = permuteInt;
+        this.result = result;
     }
 
     public long getId() {
@@ -15,6 +15,6 @@ public class PermutationDTO {
     }
 
     public String getContent() {
-        return permuteInt;
+        return result;
     }
 }
