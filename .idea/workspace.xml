@@ -7,9 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be35d387-520d-47f3-8592-25094566abe8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/javawebservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/javawebservice.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/waleed/Permutation/Model/PermutationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/waleed/Permutation/Model/PermutationDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/waleed/Permutation/Controller/PermutationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/waleed/Permutation/Controller/PermutationController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -312,5 +311,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="235" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1575931383183" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/uk/co/waleed/Permutation/Model/PermutationDTO.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

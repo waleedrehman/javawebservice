@@ -19,7 +19,7 @@ public class PermutationController {
 
     @CrossOrigin(origins = "*")
     @RequestMapping("/permutation")
-    public PermutationDTO greeting(@RequestParam(value="permuteInt", defaultValue="326") String permuteInt) {
+    public PermutationDTO permutation(@RequestParam(value="permuteInt", defaultValue="326") String permuteInt) {
         ArrayList<Integer> listOfNumbers = new ArrayList<Integer>();
 
         for(char ch : permuteInt.toCharArray()){
@@ -37,7 +37,7 @@ public class PermutationController {
         System.out.println("You entered "+ permuteInt);
         System.out.println("The digits in the input are " + listOfNumbers.toString());
         ArrayList<String> result = new ArrayList<String>();
-        permutation(listOfNumbers.toArray(),0,result);
+        permute(listOfNumbers.toArray(),0,result);
         //if we get 123 the result should be 123,132,213,231,312,321
         String res = "";
         Collections.sort(result, Collections.reverseOrder());
@@ -57,7 +57,7 @@ public class PermutationController {
                             String.format(template, res));
     }
 
-    private static void permutation(Object[] values, int index, ArrayList<String> res)
+    private static void permute(Object[] values, int index, ArrayList<String> res)
     {
         String result = "";
         Object[] num = Arrays.copyOf(values, values.length);
@@ -78,7 +78,7 @@ public class PermutationController {
                 num[i]=num[index];
                 num[index]=temp;
 
-                permutation(num,index+1,res);
+                permute(num,index+1,res);
             }
         }
     }
