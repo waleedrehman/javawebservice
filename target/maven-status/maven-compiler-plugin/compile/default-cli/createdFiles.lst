@@ -2,4 +2,5 @@ uk/co/waleed/Greeting/Controller/GreetingController.class
 uk/co/waleed/Permutation/Model/PermutationDTO.class
 uk/co/waleed/Greeting/Model/GreetingDTO.class
 uk/co/waleed/Permutation/Controller/PermutationController.class
+uk/co/waleed/Error/Controller/ErrorHandlerController.class
 uk/co/waleed/Application.class
