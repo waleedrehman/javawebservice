@@ -7,7 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be35d387-520d-47f3-8592-25094566abe8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/target/java-web-service##0.1.2.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/java-web-service##0.1.2.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/waleed/Home/Controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
