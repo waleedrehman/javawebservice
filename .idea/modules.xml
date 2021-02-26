@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/javawebservice.iml" filepath="$PROJECT_DIR$/.idea/modules/javawebservice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javawebservice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/javawebservice.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javawebservice.test.iml" filepath="$PROJECT_DIR$/.idea/modules/javawebservice.test.iml" />
     </modules>
   </component>
 </project>
